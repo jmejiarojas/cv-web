@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://file.myfontastic.com/r8NJC6BPjXVeZKrVfo48C7/icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/animate.css">
+    <script src="http://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="js/formulario.js"></script>
+    <title>Julio Mejia | Desarrollo web</title>
+</head>
+<body>
+<div class="social">
+    <ul>
+        <li><a href="http://www.facebook.com/jmejiarojas" target="_blank" class="icon-facebook"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="https://dev.twitter.com/" target="_blank" class="icon-twitter"><i class="fa fa-twitter"></i></a></li>
+        <!-- <li><a href="https://plus.google.com/" target="_blank" class="icon-google"><i class="fa fa-google"></i></a></li> -->
+        <li><a href="https://mail.google.com/" target="_blank" class="icon-mail"><i class="fa fa-whatsapp"></i></a></li>
+        <li><a href="https://www.youtube.com/channel/UC2ysk70w4zuqkSZGokxsLpQ" target="_blank" class="icon-youtube"><i class="fa fa-youtube-play"></i></a></li>
+    </ul>
+</div>
+<header class="main-header">
+    <div class="l-container">
+        <div class="l-container__derecha">
+            <a href="index.html">
+                <img src="img/julio.jpg" alt="" class="logo">
+            </a>
+            <div class="detail_name">
+                <h2 class="detail_name__header">Julio Mejia <span class="detail_name__header__span  ">Desarrollador Web</span></h2>
+            </div>
+        </div>
+        <div class="toggle-menu icon-menu" id="toggle-menu"></div>
+        <nav class="main-nav" id="main-nav">
+            <ul class="main-menu">
+                <li class="main-menu__item">
+                    <a href="index.html" class="main-menu__link icon-home">Inicio</a>
+                </li>
+                <!--
+                <li class="main-menu__item">
+                    <a href="servicios.html" class="main-menu__link icon-desktop">Portafolio</a>
+                </li>
+                -->
+                <li class="main-menu__item">
+                    <a href="mi-cv.html" class="main-menu__link icon-cv">CV</a>
+                </li>
+                <li class="main-menu__item">
+                    <a href="appGastos/" class="main-menu__link icon-cv" target="_blank">App gastos</a>
+                </li>
+                <li class="main-menu__item">
+                    <a href="#contacto" class="main-menu__link icon-mail">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<div class="contenido"><!-->
+    <div class="contact l-container">
+        <a name ="contacto"></a>
+        <div class="contact-data">
+            <h2 class="subtitle">Visítanos</h2>
+            <div class="contact-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3902.7735839467655!2d-77.06322228578865!3d-11.99016274411324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105ce53c69e3575%3A0x586e76dff7534a44!2sCibertec!5e0!3m2!1ses!2spe!4v1452317645444"
+                        width="100%" height="350" frameborder="0" style="border:0" allowfullscreen>
+                </iframe>
+            </div>
+            <div class="contact-adress icon-pin">Los Olivos - Lima</div>
+            <div class="contact-phone icon-phone">979333304(RPC)</div>
+            <div class="contact-phone icon-mail">julioedgarmejiarojas338@gmail.com</div>
+            <div class="contact-phone icon-clock">de Lunes a Sábado</div>
+        </div>
+        <div class="contact-form-container">
+            <h2 class="subtitle">O escríbenos</h2>
+            <form action="contact.php" method="post" class="contact-form">
+                <input type="text" name="name" id="name" required placeholder="&#128272; Su Nombre">
+
+                <input type="email" name="email" id="email" required placeholder="&#64; Su Email">
+
+                <input type="tel" name="phone" id="phone" required placeholder="&#128222; Su Teléfono">
+
+                <textarea name="message" id="message" cols="30" rows="8" required placeholder="&#9993; Su mensaje"></textarea>
+                <input type="submit" value="Enviar" class="contact-form__button">
+            </form>
+        </div>
+    </div>
+
+    <footer class="main-footer">
+        <div class="footer__block">
+            <h2 class="footer__block__title">CONTACTO</h2>
+            <ul class="footer__block__list">
+                <li class="footer__block__item icon-road">Los Olivos</li>
+                <li class="footer__block__item icon-phone"> 979333304(RPC)</li>
+                <li class="footer__block__item icon-card"> Interbank soles: 330-306692808-7</li>
+                <li class="footer__block__item icon-card"> BCP Soles: 191-25906095-0-70</li>
+                <li class="footer__block__item icon-card"> Interbank dólares: 493-3056453826</li>
+                <li class="footer__block__item icon-mail">julioedgarmejiarojas338@gmail.com</li>
+            </ul>
+        </div>
+        <div class="footer__block">
+            <h2 class="footer__block__title">Servicios</h2>
+            <ul class="footer__block__list">
+                <li><a href="#" class="footer__block__link icon-check"> Páginas web</a></li>
+                <li><a href="#" class="footer__block__link icon-check"> Asesoría Académica</a></li>
+                <li><a href="#" class="footer__block__link icon-check"> Avances de proyectos</a></li>
+                <li><a href="#" class="footer__block__link icon-check"> Sistemas informáticos</a></li>
+                <li><a href="#" class="footer__block__link icon-check"> Formación en tecnologías web</a></li>
+            </ul>
+        </div>
+        <div class="footer__block">
+            <h2 class="footer__block__title">Redes Sociales</h2>
+            <div class="sociales">
+                <a href="http://www.facebook.com/jmejiarojas" class="social-icon icon-facebook" target="_blank"></a>
+                <a href="https://dev.twitter.com/" class="social-icon icon-twitter" target="_blank"></a>
+                <a href="https://www.youtube.com/channel/UC2ysk70w4zuqkSZGokxsLpQ" class="social-icon icon-youtube" target="_blank"></a>
+            </div>
+        </div>
+    </footer>
+</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
